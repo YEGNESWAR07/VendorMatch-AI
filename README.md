@@ -4,9 +4,9 @@
 
 ## ✨ Key Features
 -   **🤖 AI Query Refiner**: Uses Google Gemini to translate vague ideas into professional procurement requirements.
--   **🎨 Premium UI**: Glassmorphism design with animated cards and smooth interactions.
+-   **💎 Clean UI**: User-friendly interface with standard Streamlit components for accessibility.
 -   **🔍 Smart Matching**: NLP-driven search that finds the best vendors based on semantic meaning.
--   **📊 Market Intelligence**: Interactive charts analyzing cost vs. quality and efficiency.
+-   **📊 Dynamic Intelligence**: Interactive Bar and Scatter charts that update based on your search results.
 -   **🚀 Instant Exports**: Download reports as CSVs.
 
 ## 🚀 Quick Start
@@ -34,14 +34,16 @@ python -m streamlit run app.py
 
 ## 🧠 How to Use the AI Features
 1.  **Get a Key**: Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and create an API key.
-2.  **Paste Key**: In the app sidebar, paste your key into the "Google API Key" field.
-3.  **Refine**: Type a simple phrase like *"cheap hiring"* in the main box and click **✨ Refine Query**.
-4.  **Watch Magic**: The AI will rewrite it to *"Cost-effective recruitment solutions optimized for high-volume hiring with a focus on budget constraints..."*
-5.  **Search**: Click **🚀 Find Matching Vendors** to get your results.
+2.  **Enter Key**: In the sidebar under **🔑 AI Configuration**, paste your key.
+3.  **Search**: 
+    - Type your requirements in the main search box.
+    - OR click one of the **Example Prompts** below the bar.
+4.  **Refine**: Click **✨ Refine Query** to better articulate your needs using AI.
+5.  **View Results**: See matched vendors and dynamic analytics immediately.
 
 ## 🛠 Tech Stack
 -   **Frontend**: Streamlit
--   **AI Model**: Google Gemini Pro (`google-generativeai`)
+-   **AI Model**: Google Gemini 2.0 Flash (Experimental) (`google-generativeai`)
 -   **ML Engine**: Scikit-Learn (TF-IDF)
 -   **Data**: Pandas, NumPy
 -   **Viz**: Plotly Express
