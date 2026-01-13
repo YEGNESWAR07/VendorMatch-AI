@@ -1,4 +1,4 @@
-# VendorMatch AI 🧬
+# VendorMatch AI 
 
 **VendorMatch AI** is a production-grade recommendation engine for HR services, supercharged with **Generative AI**.
 
